@@ -1,0 +1,166 @@
+{
+    "intents":[
+        {
+            "tag":"greeting",
+            "patterns":[
+                "Hi", 
+                "Hello",
+                "Hey",
+                "Good morning",
+                "Good evening",
+                "Good afternoon",
+                "What's up",
+                "How are you"
+            ],
+            "responses":[
+                "Hello, thanks for asking",
+                "Hi there, how are you today?",
+                "Hi, Good to see you",
+                "Hello there, how can I help?",
+                "Glad to help! How can I assist you further?",
+                "Hi there, how can I help you?"
+            ]
+        },
+        {
+            "tag":"goodbye",
+            "patterns":[
+                "Bye",
+                "See you later",
+                "Talk to you later",
+                "Have a good one",
+                "I'll talk to you soon",
+                "Goodbye"
+            ],
+            "responses":[
+                "See you!",
+                "you can catch me up anytime",
+                "check me out for any quieries in future",
+                "see ya!",
+                "Have a nice day",
+                "Bye!"
+            ]
+        },
+        {
+            "tag":"noanswer",
+            "patterns":[
+                "I don't know",
+                "I am not sure what you mean",
+                "I do not understand your question"
+            ],
+            "responses":[
+                "Sorry, I can't understand you",
+                "Not sure. Please contact college administration"
+            ]
+        },
+        {
+            "tag":"course",
+            "patterns":[
+                "Course",
+                "Which course is this?",
+                "What courses are provided by college?",
+                "What courses are available?",
+                "Courses",
+                "List of courses available"
+            ],
+            "responses":[
+                "AMCS department of PSG college of technoogy provides Master of Science (MSc) 5 years Integrated course in: *Theoretical Computer Science (TCS) *Software Systems (SS) *Data Science (DS) *Cyber Security (CS). /nThe department also provides: *BSc Computer Systems and Design - 3 Years and *M.Sc. Applied Mathematics - 2 Years (PG)",
+                "1. Theoretical Computer Science (TCS) 2. Software Systems (SS) 3. Data Science (DS) 4. Cyber Security (CS). The department also provides: 1. BSc Computer Systems and Design - 3 Years and 2. M.Sc. Applied Mathematics - 2 Years (PG)"
+            ]
+        },
+        {
+            "tag":"duration",
+            "patterns":[
+                "Duration of course",
+                "Duration of program",
+                "Program duration",
+                "Time to complete the courses?",
+                "Course Duration",
+                "What is the duration of these courses?",
+                "What is the tenure of these courses?"
+            ],
+            "responses":[
+                "Duration of the course is 5 years Integrated course with NO-EXIT option. There will be two 6-months internship in 7th and 10th semester."
+            ]
+        },
+        {
+            "tag":"fee",
+            "patterns":[
+                "Fee structure",
+                "Information about fees",
+                "Fees",
+                "What is the fee structure?",
+                "What is the fee for these courses?"
+            ],
+            "responses":[
+                "The fee structure for a year will cost around 1.6 lakhs (excluding hostel)"
+            ]
+        },
+        {
+            "tag":"internships",
+            "patterns":[
+                "Internships",
+                "Comment on Internship",
+                "Is there any internship program in this college?",
+                "Will college provide internships?",
+                "Will college assit in getting internships?"
+            ],
+            "responses":[
+                "Yes, the college will assist in the internship. You are open to choose other companies as well."
+            ]
+        },
+        {
+            "tag":"facilities",
+            "patterns":[
+                "Facilities",
+                "Facilities Available",
+                "Facilities available at this college?",
+                "Facilites in college",
+                "What are the facilities available?",
+                "What facilities are provided by college?"
+            ],
+            "responses":[
+                "The college had a huge library consisting of 2.60 Lakhs books, 13053 CDs/DVDs and 217 printed journals. The library has access to more than 1078 online electronic journals. Students can access the labs equipped with the latest software and hardware configuration. All the labs are attached with multimedia projector and wall mounted screen. There are special labs like: * Network Science Lab - provide tools and technology to students to model real world problems such as virus spreads, protein interactions., etc as networks and to apply the network science concepts to yield interesting insights and results using Python and R. This lab also provides a great platform to do research in the growing fields in Network Science like epidemic models and social network analysis * Interactive Intelligence Lab - an applied research lab focusing on research problems across allied domains of artificial intelligence, including machine learning, deep learning, computer vision, natural language processing. This lab provides an environment for the students to learn and implement algorithms that have enabled intelligent software agents and motivates students to develop algorithms that would impact the research community. * Object Computing Lab - provides an environment for the students to gain an understanding of the principles of Object-Oriented Programming (OOP), and implement them in languages such as C++, JAVA. It is also intended for learning and applying required design patterns that will enable the students to design and develop real-time object-oriented systems. * The Secure Computing Laboratory - to advance the research and education in the areas of computer security and privacy. This lab was established in 2020. The objective of this laboratory is to provide the infrastructure for research and education in various aspects of security in computing. This lab is equipped with 42 high-end configuration computers and smart display boards. * Embedded and IOT lab - for exploring multidisciplinary research related to computer networks, wireless technology etc. This lab enables students to transform real time problems and ideas into customized solutions with a highly interconnected network."
+            ]
+        },
+        {
+            "tag":"scholarship",
+            "patterns":[
+                "Scholarships",
+                "Scholarship Programme",
+                "Are scholarships offered to students of this college?",
+                "Will college provide scholarships?",
+                "Does college provide any scholarships?"
+            ],
+            "responses":[
+                "The college has certain government and non-government schoarships. You can select the scholarship you are eigible to. For more details, contact college administration"
+            ]
+        },
+        {
+            "tag":"criteria",
+            "patterns":[
+                "Criteria",
+                "Selection Criteria",
+                "How is selection done?",
+                "What is the criteria for joining the college?",
+                "What cutoff should I have?"
+            ],
+            "responses":[
+                "You should have strong fundamentals in mathematics and physics. Having 90% and above increases your chance in getting into the college"
+            ]
+        },
+        {
+            "tag":"interview",
+            "patterns":[
+                "Interviews",
+                "Interview Process",
+                "Is there an interview process before admission into college?",
+                "How will the interview be?",
+                "How to attend the interview?",
+                "What is the interview like?"
+            ],
+            "responses":[
+                "The interview will be a one-to-one session. You will be asked to come to the college. One should have a strong knowledge in physics and mathematics to clear the interview with flying colours. You will receive an e-mail notification if you are selected"
+            ]
+        }
+    ]
+}
